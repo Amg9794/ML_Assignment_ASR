@@ -215,6 +215,7 @@ In this project, I developed a complete pipeline to preprocess, align, and prepa
 2- **Noise reduction /Speech enhancement** **:**- I didn’t implement this as well because i wanted to have fair comparison with method that implement this thing as noise reduction comes at cost of distorting the speech signal itself. In future this can be implemented which van help in getting more accurate speech segments from VAD and precise alignment from aligner.
 
 3- **Chunking :** This can be optimized further more to handle shorter segments of words like yes, no , sorry.
+
 4- **Model Training :-** Next we can try model training by proving previous transcription as prompt . It surely help model to understand the context specially for handling domain specific term like Article 32(a) , volume 6A(b).
 
 5- **Reducing Manual work :**  Since the quality of the aligned data also depends on how well we extract the relevant text from the PDFs, identifying known patterns—such as placeholders or speaker identities—can greatly reduce the need for manual inspection of each page. This can make the overall processing faster and more efficient.
