@@ -104,7 +104,7 @@ The next task was to align each speaker's dialogue (text) with their correspondi
 
 I initially experimented with speaker diarization to extract speech segments, utilizing the [pyannote/speaker-diarization-3.1 model.](https://huggingface.co/pyannote/speaker-diarization-3.1) The resulting segments were obtained as follows:
 
-![overalp speech.png](attachment:37a68c00-211d-4cf8-88b7-e63e603d0ecd:overalp_speech.png)
+![overalp speech.png](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/overalp%20speech.png)
 
 I identified the following issues with this approach, which led me to explore an alternative method for obtaining speaker segments
 
@@ -117,7 +117,7 @@ In this approach, I used [NEMO Aligner](https://github.com/NVIDIA/NeMo-Aligner),
 
 NEMO Aligner takes an audio file and its text manifest as input, then generates token and word-level alignments for the audio.
 
-![image.png](attachment:9a20e924-86d0-4427-b943-a392e5e7c0df:image.png)
+![image.png](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/nfa_forced_alignment_pipeline.png)
 
 so for above example manifest file will look like this 
 
