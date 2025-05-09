@@ -184,7 +184,7 @@ The filtered dataset, containing only reliably aligned samples, was taken as our
 
 I primarily used Whisper as it offers high transcription accuracy and handles diverse accents and background noise, making it reliable for legal recordings.
 
-The model was evaluated using the WER , CER metric. however for uses like medical transcription or legal transcription ,ASR systems should be judged by how well they capture intended meaning, not just error rates so we also evaluated our model on SEMA SCORE that assess whether generated hypothesis accurately convey same meaning for spoken utterance or not for same WER.
+The model was evaluated using the WER , CER metric. however for uses like legal transcription ,ASR systems should be judged by how well they capture intended meaning, not just error rates so we also evaluated our model on SEMA SCORE that assess whether generated hypothesis accurately convey same meaning for spoken utterance or not for same WER.
 
 .
 
