@@ -220,7 +220,7 @@ In this project, I developed a complete pipeline to preprocess, align, and prepa
 
 5- **Reducing Manual work :**  Since the quality of the aligned data also depends on how well we extract the relevant text from the PDFs, identifying known patterns—such as placeholders or speaker identities—can greatly reduce the need for manual inspection of each page. This can make the overall processing faster and more efficient.
 
-# **To Run these experimenst**
+# **To Run these experiments**
 
 1. **Data Preparation**
     run1: python download_audio_transcript.py
@@ -236,3 +236,20 @@ In this project, I developed a complete pipeline to preprocess, align, and prepa
     run6: use Nemo_aligner.ipynb
 
     run7: python create_final_data.py
+
+2. **traininig**
+
+ you can either first save preprocessed data so when you need to resume the trainig you can directly start resuming with data preprocessing again
+
+run1 - python save_preprocess_data.py
+                      
+run2  CUDA_VISIBLE_DEVICE= gpu id torchrun --nproc_per_node=num_proc finetune.py 
+
+3. **Evaluation**
+
+run1: CUDA_VISIBLE_DEVICE= gpu id python run_3.py (This will give Final WER)
+
+For detailed WER , CER and semascore each sample 
+
+run2: python compute_wer.py or compute_cer.py or compute_semscore.py(this will not give WER ,CER)
+
