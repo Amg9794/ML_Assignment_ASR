@@ -131,5 +131,5 @@ def process(save_path):
 
 if __name__ == "__main__":
     model_path = "openai/whisper-large-v3"
-    process(save_path=f"/hdd6/Kumud/preprocess/Wv3_Sc/SC")
+    process(save_path=f"/hdd2/Aman/preprocess/Whisper_med/SC")
 
