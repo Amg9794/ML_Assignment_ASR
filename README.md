@@ -40,19 +40,19 @@ Particularly I used **Silero VAD** model and script for getting speech segment f
 
 **Original Signal (5 hr)**
 
-![Org.png](attachment:569bd238-69a5-4aea-8308-3988237ec284:Org.png)
+![Org signal (5hr)](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/Org.png)
 
 Speech Segments labels
 
-![segmneted view.png](attachment:e0397daa-02a5-4f92-a387-55b80527325b:segmneted_view.png)
+![Speech Segments labels](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/segmneted%20view.png)
 
 more closer look
 
-![close look.png](attachment:f5888613-4c5e-4516-9462-ce5227a8d7ac:close_look.png)
+![close look](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/close%20look.png)
 
 Final Signal after removing Silence (2 h 45 min)
 
-![after vad.png](attachment:9b4dc344-8658-4b3b-9db0-24beff5bc488:after_vad.png)
+![after vad]([attachment:9b4dc344-8658-4b3b-9db0-24beff5bc488:after_vad.png](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/after%20vad.png))
 
 **🗒️For Text :** This was bit challenging due to inconsistencies in pdf. Each pdf contain Speaker detail and corresponding dialogues. 
 
