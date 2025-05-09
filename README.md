@@ -52,7 +52,7 @@ more closer look
 
 Final Signal after removing Silence (2 h 45 min)
 
-![after vad]([attachment:9b4dc344-8658-4b3b-9db0-24beff5bc488:after_vad.png](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/after%20vad.png))
+![after vad](https://github.com/Amg9794/ML_Assignment_ASR/blob/main/data_preparation/after%20vad.png)
 
 **🗒️For Text :** This was bit challenging due to inconsistencies in pdf. Each pdf contain Speaker detail and corresponding dialogues. 
 
