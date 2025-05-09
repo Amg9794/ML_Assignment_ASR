@@ -219,3 +219,20 @@ In this project, I developed a complete pipeline to preprocess, align, and prepa
 4- **Model Training :-** Next we can try model training by proving previous transcription as prompt . It surely help model to understand the context specially for handling domain specific term like Article 32(a) , volume 6A(b).
 
 5- **Reducing Manual work :**  Since the quality of the aligned data also depends on how well we extract the relevant text from the PDFs, identifying known patterns—such as placeholders or speaker identities—can greatly reduce the need for manual inspection of each page. This can make the overall processing faster and more efficient.
+
+# **To Run these experimenst**
+
+1. **Data Preparation**
+    run1: python download_audio_transcript.py
+   
+    run2: python vad_speech_seg_extracter.py
+   
+    run3: python concatenate_vad_outoput.py
+
+    run4 : python get_metadata_from_pdf.py 
+
+    run5: python create_manifest.py
+
+    run6: use Nemo_aligner.ipynb
+
+    run7: python create_final_data.py
