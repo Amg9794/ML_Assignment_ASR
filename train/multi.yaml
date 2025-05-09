@@ -1,0 +1,31 @@
+model_name: "openai/whisper-medium" 
+language: "Hindi" #set any language ... it is necessary to set but there is no any relation with multilingual FT.
+sampling_rate: 16000
+num_proc: 4
+train_strategy: "steps"
+learning_rate: 1.00e-5
+warmup: 100
+train_batchsize: 4 #16 for medium and below it
+eval_batchsize: 16
+num_epochs: 25
+eval_steps: 1000
+save_steps: 1000
+resume_from_ckpt: False
+output_dir: "/hdd2/Aman/scripts/ML_assign/models"
+prompting: False
+
+train_datasets:
+#   # - "/hdd6/Kumud/preprocess/hindi_kathbath_large"
+  - "/hdd6/Kumud/preprocess/W_medium_distill/SC"
+train_dataset_splits:
+  - "train"
+
+eval_datasets:
+  # - "/hdd6/Kumud/preprocess/hindi_kathbath_large"
+  - "/hdd6/Kumud/preprocess/W_medium_distill/SC"
+
+eval_dataset_splits:
+  - "validation"
+
+seed: 42
+
